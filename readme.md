@@ -1,68 +1,19 @@
 # create-pastel-app [![Build Status](https://travis-ci.com/vadimdemedes/create-pastel-app.svg?branch=master)](https://travis-ci.com/vadimdemedes/create-pastel-app)
 
-> Generate a starter Pastel app
-
-
-## Install
-
-```
-$ npm install create-pastel-app
-```
+> Generate a starter [Pastel](https://github.com/vadimdemedes/pastel) app
 
 
 ## Usage
 
-```js
-const createPastelApp = require('create-pastel-app');
+This helper tool scaffolds out basic project structure for Pastel apps and lets you avoid the boilerplate and get to building beautiful CLIs in no time.
 
-createPastelApp('unicorns');
-//=> 'unicorns & rainbows'
+```bash
+$ mkdir my-fancy-cli
+$ cd my-fancy-cli
+$ npx create-pastel-app
 ```
 
-
-## API
-
-### createPastelApp(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global create-pastel-app
-```
-
-```
-$ create-pastel-app --help
-
-  Usage
-    create-pastel-app [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
-
-  Examples
-    $ create-pastel-app
-    unicorns & rainbows
-    $ create-pastel-app ponies
-    ponies & rainbows
-```
+![](media/demo.gif)
 
 
 ## License
