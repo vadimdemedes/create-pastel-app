@@ -1,4 +1,4 @@
-# create-pastel-app [![Build Status](https://travis-ci.com/vadimdemedes/create-pastel-app.svg?branch=master)](https://travis-ci.com/vadimdemedes/create-pastel-app)
+# create-pastel-app [![Build Status](https://travis-ci.org/vadimdemedes/create-pastel-app.svg?branch=master)](https://travis-ci.org/vadimdemedes/create-pastel-app)
 
 > Generate a starter [Pastel](https://github.com/vadimdemedes/pastel) app
 
