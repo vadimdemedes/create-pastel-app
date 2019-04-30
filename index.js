@@ -53,7 +53,7 @@ module.exports = () => {
 		},
 		{
 			title: 'Install dependencies',
-			task: () => execa('npm', ['install', 'pasteljs', 'ink', 'react'])
+			task: () => execa('npm', ['install', 'pasteljs', 'ink', 'react', 'prop-types'])
 		},
 		{
 			title: 'Build application',
