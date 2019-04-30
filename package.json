@@ -1,6 +1,6 @@
 {
 	"name": "create-pastel-app",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Generate a starter Pastel app",
 	"license": "MIT",
 	"repository": "vadimdemedes/create-pastel-app",
