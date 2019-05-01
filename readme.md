@@ -2,6 +2,10 @@
 
 > Generate a starter [Pastel](https://github.com/vadimdemedes/pastel) app
 
+## Install
+```bash
+$ npm i -g create-pastel-app
+```
 
 ## Usage
 
