@@ -40,7 +40,7 @@ module.exports = () => {
 				await makeDir(toPath('commands'));
 
 				return Promise.all([
-					copyWithTemplate(fromPath('package.json'), toPath('package.json'), variables),
+					copyWithTemplate(fromPath('_package.json'), toPath('package.json'), variables),
 					copyWithTemplate(fromPath('readme.md'), toPath('readme.md'), variables),
 					cpy(fromPath('commands'), toPath('commands')),
 					cpy([
