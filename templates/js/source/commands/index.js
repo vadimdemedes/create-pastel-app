@@ -6,7 +6,7 @@ export const options = zod.object({
 	name: zod.string().default('Stranger').describe('Name'),
 });
 
-export default function App({options}) {
+export default function Index({options}) {
 	return (
 		<Text>
 			Hello, <Text color="green">{options.name}</Text>
